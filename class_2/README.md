@@ -1,42 +1,47 @@
-## Using CSS with HTML
-- There are three main ways to use CSS - inline styles, the style tag in the head(internal), and a separate .css file that is linked to the HTML.
-- Linking a stylesheet to the HTML document is the best-practice way to use CSS styles.
-- Here is the syntax for the link tag:
+# HTML Review and Introduction to CSS
 
-` <link rel="stylesheet" href="style.css" /> `
+## HTML Review
+
+##### What tag is it?
+- Below is a mockup of a HTML page we will be using as a guide to build our own later today.
+- Think about which tags may be used to create this layout.
+
+![Betty White Resume](img/WendyBite_AboutMe.png)
+
+## Working with Directories
+- In order to link files correctly it's important to understand how directories work.
+- Let's take an example of an image called puppies.jpg that is located inside of a folder called img. Let's see how the `img` tag changes as the files get moved around.
+- It's also important to note that if you move a file after you make changes to it in the editor you should exit the editor and re-open the file.
+
+## Using CSS with HTML
+- There are three main ways to use CSS - inline styles, the `style` tag in the `head`, and a separate .css file that is linked to the HTML.
+- Linking a stylesheet to the HTML document is the best-practice way to use CSS styles.
+- Here is the syntax for the `link` tag:
+
+```html
+<link rel="stylesheet" href="style.css" />
+```
 
 ## CSS Breakdown
 - Each CSS style set starts with a selector.
 - Selectors allow you to identify which elements you want to apply styles to.
 - Here is an example of a selector with a couple rules:
 
-```
+```css
 p {
-    color: red;
-    font-weight: bold;
-    background-color: blue;
+	color: red;
+	font-weight: bold;
+	background-color: blue;
 }
-
 ```
+
 - This example selects all paragraph tags on the page and applies the below styles to them.
-
-## CSS Colors
-- Colors in CSS can be defined in a few different ways.
-- The first we have already seen - calling them out by their name semantically (red, green, blue, etc.)
-- The second way is by using HEX colors. HEX codes represent shades of red, green, and blue.
-
-![HEX Colors](img/hex_colors.png)
-
-
-- You can find color codes on a number of websites and other programs like Photoshop. [Colorpicker.com](http://www.colorpicker.com/) is a good example.
-- Another way of defining CSS colors is via `rgba()`. Rgba accepts values for red, green, and blue as well as an alpha value for transparency.
-- Each RGB value is from 0 to 255. Alpha values are from 0 to 1.
 
 ## CSS Selectors
 - There are three common basic selectors in CSS.
 - The first is the element selector. This is not a very specific selector:
 
-```
+```css
 div {
 	color: red;
 }
@@ -52,7 +57,7 @@ p {
 
 - The second is the id selector. By convention id's should not be used more than once per page:
 
-```
+```css
 #my-div {
 	background-color: #990000;
 }
@@ -60,57 +65,77 @@ p {
 
 - The third is the class selector. Classes by convention can be used multiple times throughout the page:
 
-```
+```css
 .my-divs {
 	background-color: #EBEBEB;
 }
 ```
 
+## CSS Colors
+- Colors in CSS can be defined in a few different ways.
+- The first we have already seen - calling them out by their name symantically (red, green, blue, etc.)
+- The second way is by using HEX colors. HEX codes represent shades of red, green, and blue.
+
+![HEX Colors](img/hex_colors.png)
+
+- You can find color codes on a number of websites and other programs like Photoshop. [Colorpicker.com](http://www.colorpicker.com/) is a good example.
+- Another way of defining CSS colors is via `rgba()`. Rgba accepts values for red, green, and blue as well as an alpha value for transparency.
+- Each RGB value is from 0 to 255. Alpha values are from 0 to 1.
 
 ## CSS Review
 - Where should CSS styles go?
 - How does the CSS syntax work?
-- What is the difference between an id and a class?
+- Give examples of 3 different CSS selectors.
 
+## Introduction to Git
+- Git is a source control management tool.
+- Git allows you to store and update your code in a structured way.
+- Git includes history of changes you make, so you can create "checkpoints" and track your work better over time.
+- Git is an intelligent tool, and does many things for you automatically, but can be tricky to use in some cases. It takes a bit of learning to get fully comfortable with Git.
 
-## CSS Lab
-- We will now work on adding CSS to the page built for homework.
+## What is GitHub?
+- GitHub is a service that lets you host Git repositories in the cloud.
+	- In other words, they are hosted remotely by GitHub, and can be downloaded from / uploaded to over the internet.
+- GitHub allows you to easily distribute code to others by sharing your repository.
+- GitHub lets you view your code online easily with a web interface.
+- GitHub is free to use as long as you make your code public.
+Private repositories cost a monthly fee.
 
-## Floats
-- Floating elements allows us to create a nearly unlimited number of layouts using all types of block elements.
-- Floating an element essentially removes it from the standard "flow" and places it to the left or right side of its container.
-- Elements can have fixed width, which will wrap underneath each other if the container is smaller than the combined widths.
-- You can also used percentage width, which will have the columns respond to the screen size.
-- You can tell already that the calculations can get out of hand really fast...
+## Git Class Demonstration
+- We will practice setting up a new Git repository and pushing it to GitHub.
+- Note that empty repositories cannot be added to GitHub.
+- Here is a cheatsheet of commands we will be using:
 
-## Element Alignment
-- To determine how we can align an element we have to first know what kind of element it is.
-- Inline elements can be aligned as text, so with the `text-align` CSS property.
-- Block elements can be aligned using the space around them - margin. A margin set to auto for both left and right will center the element in a container.
+Add files to Git tracking:
 
-## The Grid Layout
-- Most modern layouts operate on a standard 12-column grid system.
-- If you break down any of the websites you know and love you will notice many variations on the 12 column grid.
-- Each column in the grid can contain nested grids itself.
-- If you want a larger box, you need to have a greater column offset.
-- Here is a good pictorial to help you break it down:
+```
+git add -A
+```
 
-![Grid Pictorial](img/grid.jpg)
+Commit files to local Git repository:
 
-## Group Exercise
-- In groups of two, look up one website of your choice.
-- Think about the layout they chose in terms of the grid system.
-- Write down which column "offsets" were likely used, and where nested grids may be present.
-- Review the mockup of the fashion blog located [here](img/fashion_blog_2.png) and do the same thing.
+```
+git commit -m "Initial commit"
+```
 
-## Code-Along: Let's Create Our Own Grid
-- We will create a 2, 3, and 4 column grid.
+Add remote to push to:
 
+```
+git remote add origin http://yourgithuburl.com
+```
 
-## In-Class Lab / Homework
-- For homework you will be creating the fashion blog using your knowledge of layouts.
-- The mockup of what you will be creating can be found [here](img/fashion_blog_2.png).
-- Bonus: Implement your own grid system to use in layout.
-- Extra Reading: Have a look through the documentation for popular frontend frameworks such as Twitter Bootstrap or Zurb Foundation. Pay attention to how they implement the grid system.
-	- [Twitter Bootstrap](http://getbootstrap.com/)
-	- [Zurb Foundation](http://foundation.zurb.com/)
+Push to remote repository:
+
+```
+git push -u origin master
+```
+
+## About Me Code-Along
+- We will now work on coding an about me page (use the Wendy G. Bite one as a guide).
+- We will be incorporating our HTML knowledge with CSS styles to accomplish this.
+
+## Wendy G. Bite Resume Lab / Homework
+- For this exercise we will be using the mockup below to code our own page.
+- Link the about me page we created earlier to your resume page.
+
+![Wendy G. Bite Resume](img/WendyBite_Resume.png)
