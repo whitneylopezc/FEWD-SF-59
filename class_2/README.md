@@ -2,12 +2,6 @@
 
 ## HTML Review
 
-##### What tag is it?
-- Below is a mockup of a HTML page we will be using as a guide to build our own later today.
-- Think about which tags may be used to create this layout.
-
-![Betty White Resume](img/WendyBite_AboutMe.png)
-
 ## Working with Directories
 - In order to link files correctly it's important to understand how directories work.
 - Let's take an example of an image called puppies.jpg that is located inside of a folder called img. Let's see how the `img` tag changes as the files get moved around.
@@ -130,11 +124,14 @@ Push to remote repository:
 git push -u origin master
 ```
 
-## About Me Code-Along
+## About Me Homework
 - We will now work on coding an about me page (use the Wendy G. Bite one as a guide).
 - We will be incorporating our HTML knowledge with CSS styles to accomplish this.
 
-## Wendy G. Bite Resume Lab / Homework
+![Betty White Resume](img/WendyBite_AboutMe.png)
+
+
+## Wendy G. Bite Resume Stretch Challenge
 - For this exercise we will be using the mockup below to code our own page.
 - Link the about me page we created earlier to your resume page.
 
