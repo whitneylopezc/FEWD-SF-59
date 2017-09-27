@@ -211,7 +211,7 @@ CSS
 - Select an anchor tag that has a link to a pdf file. Change the color to blue and increase the font size.
 - Select an anchor tag that has an href attribute containing the substring "asyoulikeit" and change the font color to orange.
 
-##Homework
+## Homework
 - Finish fashion blog
 - Review CSS selectors
 - Review documentation for [Twitter Bootstrap](http://getbootstrap.com/).
