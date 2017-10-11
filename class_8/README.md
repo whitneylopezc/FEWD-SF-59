@@ -118,7 +118,7 @@ for (var i = 0; i < 20; i++) {
 - if the time was between 2 to 4 hours, alert the user that their time was excellent.
 - If the time was greater than 5 hours, alert the user that they need to speed up!
 
-## Homework: Part 2 -- Loops
+## STRETCH Homework: Part 1 -- Loops
 - Write a for loop that will iterate from 0 to 20.
 - For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
 - Do this using a `FOR` loop and then try to replicate the same functionality with a `WHILE` loop.
