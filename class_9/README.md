@@ -44,12 +44,13 @@ for (var i = 0; i < 20; i++) {
 }
 ```
 ## Homework: Part 1 -- Functions
-Your task is to write four functions that will make three calculators work:
+Your task is to write functions that will make these various calculators work:
 
-Celcius to fahrenheit: celcius * (9/5) + 32
-Fahrenheit to celcius: (fahrenheit - 32) * 5/9
-Radius to circumference: 2 * Math.PI * radius
-Pythagorean theorem: Math.sqrt((a * a) + (b * b))
+- Celcius to fahrenheit: celcius * (9/5) + 32
+- Fahrenheit to celcius: (fahrenheit - 32) * 5/9
+- Radius to circumference: 2 * Math.PI * radius
+- Pythagorean theorem: Math.sqrt((a * a) + (b * b))
+
 You have to use your developer tools to complete this assignment.
 
 The four functions you're writing can't just be called anything. They must be "called" certain things.
@@ -58,7 +59,7 @@ When declaring these functions, be sure to include the appropriate parameters. T
 
 They also must each return a number.
 
-Once they return the right number, you'll see that number appear in the console. 
+Once they return the right number, you'll see that number appear in the console.
 
 
 ## STRETCH Homework: Part 1 -- Loops
