@@ -53,11 +53,9 @@ Your task is to write functions that will make these various calculators work:
 
 You have to use your developer tools to complete this assignment.
 
-The four functions you're writing can't just be called anything. They must be "called" certain things.
 
 When declaring these functions, be sure to include the appropriate parameters. That's what you need to figure out.
 
-They also must each return a number.
 
 Once they return the right number, you'll see that number appear in the console.
 
