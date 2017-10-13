@@ -43,6 +43,24 @@ for (var i = 0; i < 20; i++) {
 	console.log(i);
 }
 ```
+## Homework: Part 1 -- Functions
+Your task is to write four functions that will make three calculators work:
+
+Celcius to fahrenheit: celcius * (9/5) + 32
+Fahrenheit to celcius: (fahrenheit - 32) * 5/9
+Radius to circumference: 2 * Math.PI * radius
+Pythagorean theorem: Math.sqrt((a * a) + (b * b))
+You have to use your developer tools to complete this assignment.
+
+The four functions you're writing can't just be called anything. They must be "called" certain things.
+
+When declaring these functions, be sure to include the appropriate parameters. That's what you need to figure out.
+
+They also must each return a number.
+
+Once they return the right number, you'll see that number appear in the console. 
+
+
 ## STRETCH Homework: Part 1 -- Loops
 - Write a for loop that will iterate from 0 to 20.
 - For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
