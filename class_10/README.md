@@ -49,8 +49,10 @@ $("my-selector").action(options);
 On the fly CSS manipulations:
 ```js
 $("my-selector").css("property", "value");
-On the fly HTML manipulations:
+```
 
+On the fly HTML manipulations:
+```js
 $("my-selector").html("New HTML inside here");
 Altering CSS class attributes:
 
@@ -67,8 +69,8 @@ $("my-selector").toggleClass("class");
 - Add a class of year to all of the table cells in the third column of a table.
 - Hint: Take a look at how many columns are in each table.
 - Add the class of special to the first table row that has the word Tragedy in it.
-- Challenge: Select all of the list items (<li>) containing a link (<a>). Add the class afterlink to the sibling list items that follow the ones selected.
-- Challenge: Add the class tragedy to the closest ancestor (<ul>) of any .pdf link.
+- Challenge: Select all of the list items <li> containing a link <a>. Add the class afterlink to the sibling list items that follow the ones selected.
+- Challenge: Add the class tragedy to the closest ancestor <ul> of any .pdf link.
 
 ## Event Handling
 
