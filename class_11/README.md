@@ -1,7 +1,7 @@
 # jQuery Continued
 
 ## jQuery Animations
-- jQuery wraps in some neat animations that help us achieve some interested effects.
+- jQuery wraps in some neat animations that help us achieve some interesting effects.
 - jQuery animations work by altering the `style` attribute dynamically over a set period of time.
 - These animations are great but less performant than CSS3 animations, which are hardware-accelerated.
 - Here are a few common animations you will see:
