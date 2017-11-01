@@ -14,26 +14,26 @@
 
 #### Getter
 
-```
+```js
 $("#form-field").val();
 ```
 #### Setter
 
-```
+```js
 $("#form-field").val("New value!");
 ```
 - Often these fields are pulled out via JavaScript into an object:
 
 #### HTML
 
-```
+```HTML
 <input type="text" id="username" />
 <input type="password" id="password" />
 <button type="button" id="submit-button">Submit</button>
 ```
 #### JS
 
-```
+```js
 $(document).on("click", "#submit-button", function() {
 	var formInfo = {
 		username: $("#username").val(),
@@ -46,7 +46,7 @@ $(document).on("click", "#submit-button", function() {
 - Most times when dealing with forms in JavaScript you want to make sure that the form is not submitted until it has been processed appropriately.
 - To prevent forms from submitting automatically, we can use the `event.preventDefault()` method:
 
-```
+```js
 $(document).on("click", "#submit-button", function(event) {
 	event.preventDefault();
 
@@ -62,7 +62,7 @@ $(document).on("click", "#submit-button", function(event) {
 - One of the simplest checks we can make is that all fields have been filled out and not left blank.
 - Here's an example using a for-in loop to check the form for blank submissions:
 
-```
+```js
 for (field in formInfo) {
 	if (formInfo[field] === "") {
 		alert("Please fill in all fields.");
