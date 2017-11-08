@@ -51,6 +51,19 @@ var userInfo = {
 };
 ```
 
+### Think, Pair, Share (5 mins)
+
+Form pairs and explore the API links in the below table. Record any observations that come to mind. In particular, think about what you see in the URL and the API response itself.
+
+| API | Sample URL |
+|-----|------------|
+| **[This for That](http://itsthisforthat.com/)** | http://itsthisforthat.com/api.php?json |
+| **[iTunes](https://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html)** | http://itunes.apple.com/search?term=adele |
+| **[Giphy](https://github.com/Giphy/GiphyAPI)** | http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC |
+| **[OMDB API](http://www.omdbapi.com/)** | http://www.omdbapi.com/?t=Game%20of%20Thrones&Season=1 |
+| **[StarWars](http://swapi.co/)** | http://swapi.co/api/people/3 |
+| **[Stocks](http://dev.markitondemand.com/MODApis/)** | http://dev.markitondemand.com/Api/Quote/json?symbol=AAPL |
+
 ## Code-Along: Using AJAX to Build a User Manager
 - For this code along we will be looking at a live API that has information about a set of people.
 - We will be using AJAX to grab information about the people in the list as well as alter the list contents.
