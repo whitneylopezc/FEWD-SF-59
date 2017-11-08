@@ -64,7 +64,7 @@ var userInfo = {
 - First we will start off with creating a `console.log` for each piece of data we get back.
 - While performing a `GET` request to `/persons` what type of data do we get back? How can we take every user and output their details to the console?
 - After this let's create a simple form to input new user information.
-- We will save the `DELETE` request for next class.
+- We will save the `PUT` and `DELETE` request for next class.
 
 ## In-Class Lab / Homework
 - For this exercise we will be using the API located here: `http://myapi-profstream.herokuapp.com/docs/wine`.
