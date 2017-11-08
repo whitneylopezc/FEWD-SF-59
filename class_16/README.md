@@ -1,12 +1,12 @@
-#Introduction to AJAX
+# Introduction to AJAX
 
-##What is AJAX?
+## What is AJAX?
 - AJAX stands for Asynchronous JavaScript and XML.
 - It is a way to send and receive data from a server (the back end) after the page has already been loaded, and without reloading it.
 - AJAX accepts and operates through the REST convention.
 - It bridges the gap between front end and back end in a user-friendly way.
 
-##AJAX with jQuery
+## AJAX with jQuery
 - jQuery has a powerful AJAX feature that makes using AJAX painless and straightforward.
 - There are a few shortcut methods, but here is the best-practice way that is advised:
 
@@ -22,7 +22,7 @@ $.ajax({
 
 - Data that is either transmitted or received via AJAX is in JSON format.
 
-##JSON
+## JSON
 - JSON is used widely throughout applications that use JavaScript because its format is simply a JavaScript object.
 - As a result, JSON objects have keys and values, and these can also be nested inside of each other.
 - Multiple data types can also be present in these objects such as arrays, integers, strings, etc.
@@ -51,7 +51,7 @@ var userInfo = {
 };
 ```
 
-##Code-Along: Using AJAX to Build a User Manager
+## Code-Along: Using AJAX to Build a User Manager
 - For this code along we will be looking at a live API that has information about a set of people.
 - We will be using AJAX to grab information about the people in the list as well as alter the list contents.
 - Here is the endpoint we will be using: `http://myapi-profstream.herokuapp.com/`.
@@ -66,14 +66,14 @@ var userInfo = {
 - After this let's create a simple form to input new user information.
 - We will save the `DELETE` request for next class.
 
-##In-Class Lab / Homework
+## In-Class Lab / Homework
 - For this exercise we will be using the API located here: `http://myapi-profstream.herokuapp.com/docs/wine`.
 - This API follows the same exact RESTful convention that the users API follows. Therefore you should automatically know each route to use.
 - Here are the steps you will need to follow:
 	- Step 1: Create a form that has inputs for each piece of data. Hint: You will need to look at the JSON you get back. What are the keys?
 	- Step 2: Create two buttons - one that will perform a `console.log` of each wine from the server, and another that will perform the AJAX `POST` request to add the new wine.
 
-##Reading for Next Class:
+## Reading for Next Class:
 - Next class we will be covering JavaScript templating.
 - Take a look at the [documentation for Handlebars.js](http://handlebarsjs.com/) and see if you can figure out how to use it.
 - Also it would be a good idea to play around in the console with more JSON objects, as this will be a common theme.
