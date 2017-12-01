@@ -1,7 +1,8 @@
-# Welcome to FEWD 59!
+# Welcome to FEWD!
 
 ## Instructor Information
-- Melody Serra: melodyserra@gmail.com
+- Brian Cama: brian.cama@ga.co
+- Jon Zachary: jon.zachary@ga.co
 
 ## What is front-end web development?
 - Everything your eyes can see on the page.
