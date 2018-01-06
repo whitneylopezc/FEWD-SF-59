@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+
+#mamas {
+  color: blue;
+  font-size: 40px;
+}
+
+.bullet-less {
+  list-style: none;
+}
+
+body {
+  color: #333;
+}
+
+.cooking-list li {
+  list-style: none;
+  font-family: monospace;
+  font-weight: 600;
+  color: olivedrab;
+}
+
+h1 {
+  color: green;
+}
+
+h1 {
+  color: yellow;
+}
+
+.main-title {
+  color: red;
+}
+
+h1.main-title {
+  color: blue;
+}
