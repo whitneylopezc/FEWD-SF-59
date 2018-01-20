@@ -21,7 +21,7 @@ Brian Cama
 
 ----
 
-### Citipix
+### Divided Times
 
 How'd it Go?
 
@@ -32,6 +32,7 @@ How'd it Go?
 * <!--- .element: class="fragment" data-fragment-index="1" -->Box Model
 * <!--- .element: class="fragment" data-fragment-index="2" -->CSS Specificity
 * <!--- .element: class="fragment" data-fragment-index="3" -->Floats
+* <!--- .element: class="fragement" data-fragment-index="4" -->Flexbox
 
 ---
 
@@ -207,15 +208,20 @@ Allows you to ignore CSS in older browsers (i.e. screen) that are not compatible
 ### Bootstrap Queries
 
 <pre><!--- .element: class="fragment" data-fragment-index="1" --><code data-trim class="css">
-/* Extra small devices (phones, less than 768px) */
+/* Extra small devices (phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  // css
+}
+
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   // css
 }
 
-/* Medium devices (desktops, 992px and up) */
+/* Large devices (tablets, 992px and up) */
 @media (min-width: 992px) {
   // css
 }
@@ -248,6 +254,9 @@ Allows you to ignore CSS in older browsers (i.e. screen) that are not compatible
 ###Progressive Enhancement vs Graceful Degradation
 
 * Scaling Down is much more difficult than scaling up
+
+
+----
 
 ## Lab
 
